@@ -57,18 +57,41 @@
 
 .left-images{
     margin: 2px;
-    border: 2px solid transparent;
     display: flex;
     flex-direction: row;
     justify-content:space-around; 
+    align-items: center;
 }
 .right-images{
     margin: 2px;
-    border: 2px solid transparent;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
+    align-items: center;
 }
 
-
+.navbar-elements{
+    background-color:#7FA58F;
+    height: 78px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-elements li{
+    background-color:#7FA58F;
+    display:flex;
+    font-size: 20px;
+    font-weight: 15px;
+    text-shadow: 2px 2px 20px;
+}
+.navbar-elements > #one{
+    flex-basis: 50%;
+    padding-left: 15px;
+    
+}
+.
+.navbar-elements > #four{
+    padding-right: 15px;
+}
