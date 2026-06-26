@@ -86,12 +86,20 @@
     font-weight: 15px;
     text-shadow: 2px 2px 20px;
 }
+.navbar-elements li:hover{
+    background-color: white;
+    color:red;
+
+}
 .navbar-elements > #one{
     flex-basis: 50%;
     padding-left: 15px;
     
 }
-.
 .navbar-elements > #four{
-    padding-right: 15px;
+    padding-right: 20px;
+}
+
+.search-bar input:focus{
+background-color: gray;
 }
