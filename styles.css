@@ -1,0 +1,153 @@
+*{
+    background-color: #a8d5ba;
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+#heading{
+    font-family: bernard mt;
+    color: #2f3a33;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: 0.5rem;
+    font-size: 30px;
+    text-align: center;
+    margin:20px;
+}
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.great-vibes-regular-second{
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  font-size: 25px;
+  padding:5px;
+  margin:20px;
+ 
+}
+
+#footer{
+    font-family: bernard mt;
+    color: #2f3a33;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+/*.footer > #logo:hover{
+    scale:(1.05);
+}*/
+.search-bar{
+    text-align: center;
+}
+.search-bar input{
+    font-family:'Times New Roman', Times, serif;
+    color:#4b5563;
+    text-align:center;
+    font-size: 18px;
+    width: 350px;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 30px;
+    
+}
+
+.left-images{
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around; 
+    align-items: center;
+}
+.right-images{
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-elements{
+    background-color:#7FA58F; 
+    height: 78px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-elements li{
+    background-color:#7FA58F;
+    display:flex;
+    font-size: 20px;
+    font-weight: 15px;
+    text-shadow: 2px 2px 20px;
+}
+.navbar-elements li:not(:nth-child(1)):hover{ /*IMPORTANT- remember how we deselected an item*/
+    color: white;
+
+}
+.navbar-elements > #one{
+    flex-basis: 50%;
+    padding-left: 15px;
+    
+}
+.navbar-elements > #four{
+    padding-right: 20px;
+}
+
+.search-bar input:focus{
+background-color: white;
+}
+.box{
+    border: 2px solid transparent;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    padding: 6px;
+    object-fit: cover;
+
+}
+.box:hover{
+    transform: scale(1.2);
+}
+#movie-grid {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+#details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    color: #2f3a33;
+}
+
+.movie-poster {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+
+.movie-info {
+    max-width: 450px;
+}
+
+.movie-info h2 {
+    font-size: 32px;
+}
+
+.movie-info p {
+    font-size: 18px;
+    margin-top: 12px;
+    line-height: 1.5;
+}
