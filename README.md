@@ -1,26 +1,19 @@
-# Movie Mania 🎬
+# 🎬 Movie Mania
 
-Movie Mania is a simple movie search web application that allows users to search for movies and view details such as posters, ratings, release year, and plot summaries. The project is built to practice frontend web development concepts including HTML, CSS, JavaScript, API integration, and responsive UI design.
+A movie search website built with vanilla JavaScript and the [TMDB API](https://www.themoviedb.org/). Browse popular movies, search by title, and view a movie's poster, rating, release year and summary.
 
 ## Features
 
-* Search for movies by title
-* Display movie posters and basic information
-* View ratings, release year, and plot summary
-* Clean and user-friendly interface
-* Responsive design for different screen sizes
+- Popular movies shown on the homepage
+- Search any movie by title
+- Details page with poster, rating, year and plot summary
+- Responsive design for all screen sizes
+- Add your own movie reviews
 
-## Technologies Used
+## Tech
 
-* HTML
-* CSS
-* JavaScript
-* Movie API (OMDb/TMDB)
+HTML · CSS · JavaScript · TMDB API
 
-## Status
+---
 
-🚧 This project is currently under development. More features and improvements will be added soon.
-
-## Author
-
-thuwal-p
+Built by [thuwal-p](https://github.com/thuwal-p) · Data from TMDB
